@@ -66,6 +66,52 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+.contact-me {
+    padding: 20px 35px;
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 999;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: #faf0e6;
+}
+
+.contact-me nav {
+    margin: 7px 0;
+}
+
+.contact-me nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+.contact-me nav ul li a:hover {
+    background: #faf0e6;
+    color: #daa520;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 footer {
     background: #faf0e6;
     color: #daa520;
@@ -85,8 +131,8 @@ footer {
 
 .about-text {
     font-size: 20px;
-    color: #faf0e6;
-    background-color: #87CEEB;
+    color: #daa520;
+    background-color: #faf0e6;
 }
 
 .container {
@@ -180,6 +226,12 @@ html {
     grid-column-end: auto;
     grid-row-start:auto;
     grid-row-end: auto;
+  }
+
+  .me, .resume {
+    font-size: 30px;
+    font-weight: bolder ;
+    color: #daa520;
   }
 
 
