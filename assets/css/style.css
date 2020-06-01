@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #faf0e6;
+    font-family: "Times New Roman", Georgia, 'Times New Roman', Times, serif
+}
+
+/* apply styles to <header> */
+
+header {
+    padding: 20px 35px;
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 999;
+}
+
+header h1 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #faf0e6;
+}
+
+header a {
+    text-decoration: none;
+    color: #faf0e6;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: #faf0e6;
+    color: #daa520;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/*ABOUT ME SECTION STARTS*/
+.container {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #daa520;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: spacebetween;
+}
+
+.container h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    flex: 1 30%;
+}
+
+.about-text {
+    flex: 12;
+    color: #daa520;
+    font-size: 20px;
+    align-items: stretch;
+}
+
+
+
+
+
+
