@@ -28,7 +28,9 @@ header {
     background-position: center;
     width: 100%;
     height: 400px;
-    background: url(/white-smoke-of-a-space-craft-73872.jpg);
+    background-image: url("/white-smoke-of-a-space-craft-73872.jpg");
+    background-color: #daa520;
+    height: 500px;
     background-size: cover;
 }
 
@@ -47,6 +49,7 @@ header a {
 
 header nav {
     margin: 7px 0;
+    color: #deb887;
 }
 
 header nav ul {
@@ -134,6 +137,8 @@ footer {
     font-size: 20px;
     line-height: 1.2;
     background-image: url("/white-smoke-of-a-space-craft-73872.jpg");
+    background-color: #faf0e6;
+    height: 500px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -190,9 +195,7 @@ footer {
 
 
 html {
-    /* border-box box model allows us to add padding and border to our elements without increasing their size */
     box-sizing: border-box;
-    /*font-family: 'Fira Sans', sans-serif;*/
     font-weight: 600;
     font-size: 10px;
     color: black;
@@ -212,8 +215,6 @@ html {
   .grid-item {
     display: flex;
     justify-content: space-between;
-    /*border: 5px solid rgba(0, 0, 0, 0.2);*/
-    /*margin: 5px auto;*/
     border-radius: 5px;
     font-size: 35px;
     background-color: #008080;;
