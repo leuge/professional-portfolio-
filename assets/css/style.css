@@ -66,16 +66,38 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+footer {
+    background: #faf0e6;
+    color: #daa520;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
 /*ABOUT ME SECTION STARTS*/
+.me h2 {
+    color: #daa520;
+    font-size: 48px;
+}
+
+.about-text {
+    font-size: 20px;
+    color: #faf0e6;
+    background-color: #87CEEB;
+}
+
 .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
     border-bottom: 1px solid #daa520;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: spacebetween;
 }
 
 .container h3 {
@@ -91,6 +113,74 @@ header nav ul li a:hover {
     align-items: stretch;
 }
 
+
+html {
+    /* border-box box model allows us to add padding and border to our elements without increasing their size */
+    box-sizing: border-box;
+    /*font-family: 'Fira Sans', sans-serif;*/
+    font-weight: 600;
+    font-size: 10px;
+    color: black;
+    text-shadow: 0 2px 0 rgba(122, 59, 59, 0.07);
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 50px;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: space-between;
+    /*border: 5px solid rgba(0, 0, 0, 0.2);*/
+    /*margin: 5px auto;*/
+    border-radius: 5px;
+    font-size: 35px;
+    background-color: #008080;;
+  }
+  
+  .grid-container {
+    grid-auto-flow: dense;
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-items: stretch;
+  }
+  
+  .item-1 {
+    grid-column-start: 1;
+    grid-column-end: four;
+    grid-row-start: row1-start;
+    grid-row-end: 4;
+  }
+
+  .item-2 {
+      grid-column-start: 1;
+      grid-column-end: span col5-start;
+      grid-row-start: 4;
+      grid-row-end: span 1;
+  }
+
+  .item-3 {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    grid-row-start: 4;
+    grid-row-end: 2
+  }
+
+  .item-4 {
+    grid-column-start:auto;
+    grid-column-end: auto;
+    grid-row-start:auto;
+    grid-row-end: auto;
+  }
 
 
 
