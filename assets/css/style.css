@@ -3,5 +3,45 @@ body {
 }
 
 header {
-    
+    z-index: 99;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px 30px;
+    background: #696969;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    align-items: left;
+    font-size: 1.75vw;
+    margin-top: 8px;
+    color: #F5F5F5;
+    line-height: 45px;
+}
+header a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+header nav {
+    margin: 8px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header nav ul li a {
+    padding: 15px 15px;
+    font-weight: normal;
+    font-size: 1.75vw;
+}
+header nav ul li a:hover {
+    background: rgb(60, 60, 60);
+    border-radius: 15px 50px 30px;
+    color: whitesmoke;
+    text-shadow: none;
 }
