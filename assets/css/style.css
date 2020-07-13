@@ -45,3 +45,20 @@ header nav ul li a:hover {
     color: whitesmoke;
     text-shadow: none;
 }
+
+main {
+    color: whitesmoke;
+}
+.mainimg {
+    background-image: url(assets/css/white-smoke-of-a-space-craft-73872.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.container {
+    padding: 70px;
+}
+.titles {
+    border-width: 1px;
+    
+}
